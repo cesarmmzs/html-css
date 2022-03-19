@@ -34,6 +34,7 @@ header{
     color:white;
     min-height: 150px;
     padding-top: 10px;
+    width:100%;
 }
 header>h1{
     text-align: center;
@@ -53,7 +54,9 @@ header>p{
     text-shadow:2px 2px 0px rgba(0, 0, 0, 0.342);
 }
 nav{
-    min-width: 500px;
+    min-width: 300px;
+    max-width: 100%;
+    margin: auto;
     padding: 10px;
     background-color:var(--cor5);
     text-align: center;
