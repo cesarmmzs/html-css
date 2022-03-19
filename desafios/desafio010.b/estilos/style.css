@@ -83,7 +83,7 @@ main{
     min-width: 300px;
     max-width: 1200px;
     font-size:1.1em;;
-    padding: 0px 20px 20px 20px;
+    padding: 0px;
     box-shadow: 0px 2px 2px 3px rgba(0, 0, 0, 0.247);
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
@@ -95,6 +95,7 @@ main p{
     line-height: 2em;
     margin:20px 0px;
     width: 100%;
+    padding: 0px 20px;
 }
 main strong{
     color:#1e5336;
@@ -115,14 +116,15 @@ main h1{
     font-family: 'idroid';
     font-size:2em;
     color:var(--cor4);
-    padding: 20px 0px 0px 0px;
+    padding: 0px 20px;
 }
 main h2{
     font-family: 'idroid';
     font-size:1.5em;
     text-indent: 0.5em;
     color:var(--cor05);
-    background-image: linear-gradient(to right,var(--cor1),transparent);    
+    background-image: linear-gradient(to right,var(--cor1),transparent);
+    padding: 0px 20px;    
 }
 img{
     width: 100%;
@@ -148,36 +150,32 @@ div.videos>iframe{
 }
 
 aside{
-    border-radius:10px;
-    margin-top:10px;
     background-color: var(--cor2);
+    margin: 0px 20px;
+    padding:0px 0px 10px 0px;
+    border-radius:0px 0px 10px 10px;
 }
 main>aside>p{
-    margin-right: -10px;
     text-align: justify;
     text-indent: 2em;
+    margin-bottom: 10px;
 }
 aside h3{
     font-family: Arial, Helvetica, sans-serif;
     color:white;
     background-color: var(--cor5);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    padding: 10px;
+    padding:20px;
+    border-radius:10px 10px 0px 0px;
 }
 aside>ul{
     list-style-position: inside;
     list-style-type: '\1F449\00A0\00A0';
     font-size: 1.2em;
     columns: 2;
-    padding: 10px;
+    margin:0px 10px;
 }
-aside>div{
-    display:inline-block;
-    margin-left: 2em;
-    margin-right: 3em;
-    margin:0.3em 3em 0.3em 2em;
-}
+
+
 footer{
     min-width: 300px;
     max-width: 100%;
