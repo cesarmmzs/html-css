@@ -177,6 +177,10 @@ aside>div{
     margin-right: 3em;
     margin:0.3em 3em 0.3em 2em;
 }
+footer{
+    min-width: 300px;
+    max-width: 100%;
+}
 footer>p{
     text-align: center;
     color:white;
