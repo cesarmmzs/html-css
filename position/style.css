@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+}
+.container{
+    position: relative;
+    margin-top: 20vh;
+    left:200px;
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+}
+
+.box{
+    position: absolute;
+    left: 25%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    width: 200px;
+    height: 200px;
+    background:greenyellow;
+}
